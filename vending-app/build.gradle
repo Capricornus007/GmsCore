@@ -4,20 +4,19 @@
  */
 
 apply plugin: 'com.android.application'
-apply plugin: 'kotlin-android'
 apply plugin: 'org.jetbrains.kotlin.plugin.compose'
 apply plugin: 'com.squareup.wire'
 
 android {
     namespace "com.android.vending"
-    compileSdkVersion androidCompileSdk
+    compileSdk androidCompileSdk
     buildToolsVersion "$androidBuildVersionTools"
 
     defaultConfig {
         versionName vendingAppVersionName
         versionCode vendingAppVersionCode
-        minSdkVersion androidMinSdk
-        targetSdkVersion androidTargetSdk
+        minSdk androidMinSdk
+        targetSdk androidTargetSdk
 
         multiDexEnabled true
     }

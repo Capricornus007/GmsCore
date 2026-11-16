@@ -20,13 +20,13 @@ dependencies {
 android {
     namespace "org.microg.gms.net.core"
 
-    compileSdkVersion androidCompileSdk
+    compileSdk androidCompileSdk
     buildToolsVersion "$androidBuildVersionTools"
 
     defaultConfig {
         versionName version
-        minSdkVersion androidMinSdk
-        targetSdkVersion androidTargetSdk
+        minSdk androidMinSdk
+        targetSdk androidTargetSdk
     }
 
     lintOptions {

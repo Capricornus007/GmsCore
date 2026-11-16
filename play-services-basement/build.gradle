@@ -10,7 +10,7 @@ apply plugin: 'signing'
 android {
     namespace "com.google.android.gms.common"
 
-    compileSdkVersion androidCompileSdk
+    compileSdk androidCompileSdk
     buildToolsVersion "$androidBuildVersionTools"
 
     aidlPackagedList "com/google/android/gms/common/api/Status.aidl"
@@ -27,8 +27,8 @@ android {
 
     defaultConfig {
         versionName version
-        minSdkVersion androidMinSdk
-        targetSdkVersion androidTargetSdk
+        minSdk androidMinSdk
+        targetSdk androidTargetSdk
         buildConfigField "int", "VERSION_CODE", "$appVersionCode"
         consumerProguardFile 'consumer-rules.pro'
     }

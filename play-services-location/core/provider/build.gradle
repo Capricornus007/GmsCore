@@ -4,8 +4,6 @@
  */
 
 apply plugin: 'com.android.library'
-apply plugin: 'kotlin-android'
-
 dependencies {
     api project(':play-services-location')
     compileOnly project(':play-services-location-core-system-api')
@@ -29,7 +27,7 @@ dependencies {
 android {
     namespace "org.microg.gms.location.provider"
 
-    compileSdkVersion androidCompileSdk
+    compileSdk androidCompileSdk
     buildToolsVersion "$androidBuildVersionTools"
 
     buildFeatures {
@@ -38,8 +36,8 @@ android {
 
     defaultConfig {
         versionName version
-        minSdkVersion androidMinSdk
-        targetSdkVersion androidTargetSdk
+        minSdk androidMinSdk
+        targetSdk androidTargetSdk
         buildConfigField "String", "ICHNAEA_USER_AGENT", "\"microG/${version}\""
     }
 

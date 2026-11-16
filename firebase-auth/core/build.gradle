@@ -4,8 +4,6 @@
  */
 
 apply plugin: 'com.android.library'
-apply plugin: 'kotlin-android'
-
 dependencies {
     api project(':firebase-auth')
 
@@ -26,13 +24,13 @@ dependencies {
 android {
     namespace "org.microg.gms.firebase.auth.core"
 
-    compileSdkVersion androidCompileSdk
+    compileSdk androidCompileSdk
     buildToolsVersion "$androidBuildVersionTools"
 
     defaultConfig {
         versionName version
-        minSdkVersion androidMinSdk
-        targetSdkVersion androidTargetSdk
+        minSdk androidMinSdk
+        targetSdk androidTargetSdk
     }
 
     sourceSets {

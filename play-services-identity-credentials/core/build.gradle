@@ -4,8 +4,6 @@
  */
 
 apply plugin: 'com.android.library'
-apply plugin: 'kotlin-android'
-
 dependencies {
     api project(':play-services-identity-credentials')
 
@@ -20,13 +18,13 @@ dependencies {
 android {
     namespace "org.microg.gms.identitycredentials.core"
 
-    compileSdkVersion androidCompileSdk
+    compileSdk androidCompileSdk
     buildToolsVersion "$androidBuildVersionTools"
 
     defaultConfig {
         versionName version
-        minSdkVersion androidMinSdk
-        targetSdkVersion androidTargetSdk
+        minSdk androidMinSdk
+        targetSdk androidTargetSdk
     }
 
     sourceSets {

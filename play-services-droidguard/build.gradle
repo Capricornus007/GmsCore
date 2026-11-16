@@ -5,13 +5,12 @@
 
 apply plugin: 'com.android.library'
 apply plugin: 'maven-publish'
-apply plugin: 'kotlin-android'
 apply plugin: 'signing'
 
 android {
     namespace "org.microg.gms.droidguard"
 
-    compileSdkVersion androidCompileSdk
+    compileSdk androidCompileSdk
     buildToolsVersion "$androidBuildVersionTools"
 
     buildFeatures {
@@ -20,8 +19,8 @@ android {
 
     defaultConfig {
         versionName version
-        minSdkVersion androidMinSdk
-        targetSdkVersion androidTargetSdk
+        minSdk androidMinSdk
+        targetSdk androidTargetSdk
     }
 
     sourceSets {

@@ -12,7 +12,7 @@ apply plugin: 'signing'
 android {
     namespace "com.google.android.gms.auth.blockstore"
 
-    compileSdkVersion androidCompileSdk
+    compileSdk androidCompileSdk
     buildToolsVersion "$androidBuildVersionTools"
 
     buildFeatures {
@@ -21,8 +21,8 @@ android {
 
     defaultConfig {
         versionName version
-        minSdkVersion androidMinSdk
-        targetSdkVersion androidTargetSdk
+        minSdk androidMinSdk
+        targetSdk androidTargetSdk
     }
 
     compileOptions {

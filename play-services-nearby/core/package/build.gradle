@@ -4,8 +4,6 @@
  */
 
 apply plugin: 'com.android.library'
-apply plugin: 'kotlin-android'
-
 dependencies {
     implementation project(':play-services-base-core')
     implementation project(':play-services-nearby-core')
@@ -17,13 +15,13 @@ dependencies {
 android {
     namespace "org.microg.gms.nearby.core.pkg"
 
-    compileSdkVersion androidCompileSdk
+    compileSdk androidCompileSdk
     buildToolsVersion "$androidBuildVersionTools"
 
     defaultConfig {
         versionName version
-        minSdkVersion androidMinSdk
-        targetSdkVersion androidTargetSdk
+        minSdk androidMinSdk
+        targetSdk androidTargetSdk
     }
 
     sourceSets {

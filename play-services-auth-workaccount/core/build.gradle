@@ -4,8 +4,6 @@
  */
 
 apply plugin: 'com.android.library'
-apply plugin: 'kotlin-android'
-
 dependencies {
     api project(':play-services-auth-workaccount')
     api project(':play-services-auth')
@@ -17,13 +15,13 @@ dependencies {
 android {
     namespace "org.microg.gms.auth.workaccount"
 
-    compileSdkVersion androidCompileSdk
+    compileSdk androidCompileSdk
     buildToolsVersion "$androidBuildVersionTools"
 
     defaultConfig {
         versionName version
-        minSdkVersion androidMinSdk
-        targetSdkVersion androidTargetSdk
+        minSdk androidMinSdk
+        targetSdk androidTargetSdk
     }
 
     sourceSets {

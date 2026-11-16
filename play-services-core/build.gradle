@@ -4,7 +4,6 @@
  */
 
 apply plugin: 'com.android.application'
-apply plugin: 'kotlin-android'
 apply plugin: 'org.jetbrains.kotlin.plugin.compose'
 
 configurations {
@@ -118,7 +117,7 @@ dependencies {
 android {
     namespace "com.google.android.gms"
 
-    compileSdkVersion androidCompileSdk
+    compileSdk androidCompileSdk
     buildToolsVersion "$androidBuildVersionTools"
 
     buildFeatures {
@@ -131,8 +130,8 @@ android {
         versionName version
         versionCode appVersionCode
 
-        minSdkVersion androidMinSdk
-        targetSdkVersion androidTargetSdk
+        minSdk androidMinSdk
+        targetSdk androidTargetSdk
 
         multiDexEnabled true
         multiDexKeepProguard file('multidex-keep.pro')

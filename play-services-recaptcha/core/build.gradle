@@ -5,7 +5,6 @@
 
 apply plugin: 'com.android.library'
 apply plugin: 'com.squareup.wire'
-apply plugin: 'kotlin-android'
 apply plugin: 'org.jetbrains.kotlin.plugin.compose'
 apply plugin: 'maven-publish'
 apply plugin: 'signing'
@@ -44,7 +43,7 @@ wire {
 android {
     namespace "org.microg.gms.recaptcha.core"
 
-    compileSdkVersion androidCompileSdk
+    compileSdk androidCompileSdk
     buildToolsVersion "$androidBuildVersionTools"
 
     buildFeatures {
@@ -57,8 +56,8 @@ android {
 
     defaultConfig {
         versionName version
-        minSdkVersion androidMinSdk
-        targetSdkVersion androidTargetSdk
+        minSdk androidMinSdk
+        targetSdk androidTargetSdk
     }
 
     sourceSets {

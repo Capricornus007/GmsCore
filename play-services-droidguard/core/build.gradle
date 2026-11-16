@@ -5,7 +5,6 @@
 
 apply plugin: 'com.android.library'
 apply plugin: 'com.squareup.wire'
-apply plugin: 'kotlin-android'
 apply plugin: 'maven-publish'
 apply plugin: 'signing'
 
@@ -33,7 +32,7 @@ wire {
 android {
     namespace "org.microg.gms.droidguard.core"
 
-    compileSdkVersion androidCompileSdk
+    compileSdk androidCompileSdk
     buildToolsVersion "$androidBuildVersionTools"
 
     buildFeatures {
@@ -43,8 +42,8 @@ android {
     defaultConfig {
         versionName "20.47.14"
         versionCode 204714000
-        minSdkVersion androidMinSdk
-        targetSdkVersion androidTargetSdk
+        minSdk androidMinSdk
+        targetSdk androidTargetSdk
         buildConfigField("String", "VERSION_NAME", "\"${defaultConfig.versionName}\"")
         buildConfigField("int", "VERSION_CODE", "${defaultConfig.versionCode}")
     }

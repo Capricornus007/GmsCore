@@ -7,7 +7,7 @@ buildscript {
     ext.cronetVersion = '102.5005.125'
     ext.wearableVersion = '0.1.1'
 
-    ext.kotlinVersion = '1.9.22'
+    ext.kotlinVersion = '2.4.21'
     ext.coroutineVersion = '1.7.3'
 
     ext.annotationVersion = '1.7.1'
@@ -35,7 +35,7 @@ buildscript {
     ext.tinkVersion = '1.13.0'
     ext.guavaVersion = '33.5.0-android'
 
-    ext.androidBuildGradleVersion = '8.13.2'
+    ext.androidBuildGradleVersion = '9.5.1'
 
     ext.androidBuildVersionTools = '35.0.0'
 

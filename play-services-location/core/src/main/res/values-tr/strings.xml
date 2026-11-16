@@ -50,4 +50,6 @@
     <string name="pref_location_timeline_summary">Konum bilgilerinizi düzenli aralıklarla kaydedin ve Google Haritalar Zaman Çizelgesinde paylaşın.</string>
     <string name="pref_location_timeline_upload_title">Google hesabıyla eşitle</string>
     <string name="pref_location_timeline_upload_summary">Konum geçmişini Google sunucularıyla eşitleyin, böylece diğer aygıtlarda görüntülenebilir.</string>
+    <string name="pref_location_timeline_accounts_summary">Choose an account to manage its Timeline and server synchronization settings.</string>
+    <string name="pref_location_timeline_accounts_title">Manage by Google account</string>
 </resources>

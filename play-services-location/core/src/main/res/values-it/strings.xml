@@ -50,4 +50,6 @@
     <string name="pref_location_timeline_summary">Registra periodicamente le informazioni sulla tua posizione per includerle negli Spostamenti di Google Maps.</string>
     <string name="pref_location_timeline_upload_title">Sincronizza con l\'account Google</string>
     <string name="pref_location_timeline_upload_summary">Sincronizza la cronologia delle posizioni con i server di Google, in modo che sia visibile sugli altri dispositivi.</string>
+    <string name="pref_location_timeline_accounts_summary">Choose an account to manage its Timeline and server synchronization settings.</string>
+    <string name="pref_location_timeline_accounts_title">Manage by Google account</string>
 </resources>

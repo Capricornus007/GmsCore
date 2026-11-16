@@ -1,3 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="sms_user_consent_allow">Allow</string>
+    <string name="sms_user_consent_deny">Deny</string>
+    <string name="sms_user_consent_title">Allow %s to read the message below and enter the code?</string>
 </resources>

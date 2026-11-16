@@ -22,4 +22,5 @@
     <string name="service_status_manual">Уручную</string>
     <string name="service_status_enabled_short">Укл.</string>
     <string name="service_status_disabled_short">Выкл.</string>
+    <string name="menu_game_managed">Game Accounts Managed</string>
 </resources>

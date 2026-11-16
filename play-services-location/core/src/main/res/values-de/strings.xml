@@ -50,4 +50,6 @@
     <string name="pref_location_timeline_title">Standortverlauf aktivieren</string>
     <string name="pref_location_timeline_summary">Speichert regelmäßig deine Standortinformationen und macht diese in der Google Maps-Zeitachse verfügbar.</string>
     <string name="pref_location_timeline_upload_summary">Synchronisiere den Standortverlauf mit Google-Servern, damit er auf anderen Geräten angezeigt werden kann.</string>
+    <string name="pref_location_timeline_accounts_summary">Choose an account to manage its Timeline and server synchronization settings.</string>
+    <string name="pref_location_timeline_accounts_title">Manage by Google account</string>
 </resources>

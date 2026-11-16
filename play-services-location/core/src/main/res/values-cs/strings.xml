@@ -50,4 +50,6 @@
     <string name="pref_location_timeline_summary">Pravidelně zaznamenávat informace o vaší poloze a zpřístupnit je skrze Časovou osu Map Google.</string>
     <string name="pref_location_timeline_upload_title">Synchronizovat do účtu Google</string>
     <string name="pref_location_timeline_upload_summary">Synchronizovat historii polohy na servery Google, aby se daly zobrazit na ostatních zařízeních.</string>
+    <string name="pref_location_timeline_accounts_summary">Choose an account to manage its Timeline and server synchronization settings.</string>
+    <string name="pref_location_timeline_accounts_title">Manage by Google account</string>
 </resources>

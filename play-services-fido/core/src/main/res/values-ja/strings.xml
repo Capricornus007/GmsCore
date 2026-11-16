@@ -45,4 +45,9 @@
     <string name="fido_ble_permission_permanently_denied">Bluetooth許可が永続的に拒否されています。デバイス間認証を有効にするには、以下の設定を行ってください:\n\n1. 「設定に移動」をタップ\n2. 許可 / アプリ許可を探す\n3. 位置情報を有効化（またはAndroid 12+では「近くのデバイス」）\n4. アプリに戻り再試行</string>
     <string name="fido_hybrid_receiver_initial_title">信頼できるデバイスにのみ接続してください</string>
     <string name="fido_qr_code_body_sign">サインインするには、QRコードを電話またはタブレットで読み取ってください</string>
+    <string name="fido_ble_open_settings_failed">Unable to open Settings. Please grant the Location permission (or \"Nearby devices\" on Android 12+) in system settings manually.</string>
+    <string name="fido_ble_permission_blocked_toast">Cross-device authentication is unavailable without permission.</string>
+    <string name="fido_hybrid_receiver_initial_body_register">Another device will create a passkey on this device</string>
+    <string name="fido_hybrid_receiver_initial_body_sign">Another device will use a passkey on this device to sign in</string>
+    <string name="fido_qr_code_body_register">Scan this QR code with another device to create a passkey</string>
 </resources>

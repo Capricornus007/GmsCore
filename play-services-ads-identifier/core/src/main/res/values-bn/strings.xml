@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="perm_ad_id_description">একটি প্রকাশক অ্যাপকে সরাসরি বা পরোক্ষভাবে একটি বৈধ বিজ্ঞাপন আইডি অ্যাক্সেস করার অনুমতি দেয়।</string>
+    <string name="perm_ad_id_label">Advertising ID Permission</string>
+    <string name="perm_ad_id_notification_description">Allows an app to receive a notification when the advertising ID or limit ad tracking preference of the user is updated.</string>
+    <string name="perm_ad_id_notification_label">Advertising ID notification</string>
 </resources>

@@ -50,4 +50,6 @@
     <string name="pref_location_timeline_summary">Grave sua localização periodicamente e torná-la disponível no histórico do Google Maps.</string>
     <string name="pref_location_timeline_upload_title">Sincronizar na conta do Google</string>
     <string name="pref_location_timeline_upload_summary">Sincronize o histórico de localizações nos servidores do Google, para que apareça em outros dispositivos.</string>
+    <string name="pref_location_timeline_accounts_summary">Choose an account to manage its Timeline and server synchronization settings.</string>
+    <string name="pref_location_timeline_accounts_title">Manage by Google account</string>
 </resources>

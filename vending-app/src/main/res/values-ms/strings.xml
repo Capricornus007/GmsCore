@@ -31,4 +31,26 @@
     <string name="license_notification_sign_in">Daftar Masuk</string>
     <string name="license_notification_ignore">Abaikan</string>
     <string name="vending_overview_enterprise_row_mandatory">Pemasangan diperlukan</string>
+    <string name="app_install_refuse_permission_remind_sub">You can modify the authorization status permissions at any time in microG Service Settings.</string>
+    <string name="app_name">microG Companion</string>
+    <string name="billing_permission_label">Google Play billing service</string>
+    <string name="confirm_purchase">Confirm Purchase</string>
+    <string name="error_network">Not connected to the internet. Please make sure Wi-Fi or mobile network is turned on and try again.</string>
+    <string name="error_passwd">The password you entered is incorrect.</string>
+    <string name="error_unknown">Unknown error, please exit and try again.</string>
+    <string name="installer_notification_channel_description">Shows app and component installation progress, success and failure messages.</string>
+    <string name="installer_notification_channel_name">App and component installation</string>
+    <string name="pay_disabled">Pay currently not possible</string>
+    <string name="tips_more_details">Learn more</string>
+    <string name="toast_installed">microG Companion cannot be used standalone. Opened microG Services settings instead.</string>
+    <string name="toast_not_installed">microG Companion cannot be used standalone. Please install microG Services to use microG.</string>
+    <string name="vending_activity_name">Work app store</string>
+    <string name="vending_overview_enterprise_no_apps_available">No apps have been made available by your administrator.</string>
+    <string name="vending_overview_enterprise_no_apps_available_wait">It may take a few hours after setting up your work profile before apps are ready to download.</string>
+    <string name="vending_overview_enterprise_row_mandatory_hint">Your administrator requires these apps to be installed in your managed profile.</string>
+    <string name="vending_overview_enterprise_row_mandatory_missing_hint">Your device is missing mandatory apps chosen by your administrator.</string>
+    <string name="vending_overview_enterprise_row_offered">Available apps</string>
+    <string name="vending_overview_enterprise_row_offered_hint">These are all the apps made available by your enterprise.</string>
+    <string name="vending_overview_row_installed">Installed apps</string>
+    <string name="vending_overview_row_update_available">Update available</string>
 </resources>

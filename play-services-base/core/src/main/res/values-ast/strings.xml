@@ -9,4 +9,9 @@
     <string name="service_status_disabled_short">Non</string>
     <string name="list_no_item_none">Nada</string>
     <string name="service_status_manual">Manual</string>
+    <string name="foreground_service_notification_title">Active in background</string>
+    <string name="menu_game_managed">Game Accounts Managed</string>
+    <string name="service_status_automatic">Automatic</string>
+    <string name="service_status_disabled">Disabled</string>
+    <string name="service_status_enabled">Enabled</string>
 </resources>

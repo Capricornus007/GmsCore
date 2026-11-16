@@ -2,4 +2,8 @@
 <resources>
     <string name="oss_license_title">רישיונות קוד פתוח</string>
     <string name="license_list_is_loading">רשימת הרישיונות נטענת.</string>
+    <string name="license_content_error">An error has occurred when fetching the license.</string>
+    <string name="license_is_loading">License info is loading.</string>
+    <string name="no_licenses_available">This app does not have any open source licenses.</string>
+    <string name="preferences_license_summary">License details for open source software</string>
 </resources>

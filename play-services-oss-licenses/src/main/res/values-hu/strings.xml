@@ -3,4 +3,7 @@
     <string name="license_content_error">Hiba történt a licenc letöltése közben.</string>
     <string name="no_licenses_available">Az app nem tartalmaz semilyen nyílt forráskódú licencet.</string>
     <string name="oss_license_title">Nyílt forráskódú licencek</string>
+    <string name="license_is_loading">License info is loading.</string>
+    <string name="license_list_is_loading">License list is loading.</string>
+    <string name="preferences_license_summary">License details for open source software</string>
 </resources>

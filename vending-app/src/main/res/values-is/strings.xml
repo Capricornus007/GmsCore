@@ -47,4 +47,10 @@
     <string name="billing_permission_desc">Gerir notandanum kleift að kaupa hluti í gegnum Google Play inni í þessu forriti.</string>
     <string name="billing_permission_label">Innheimtuþjónusta Google Play</string>
     <string name="installer_notification_progress_splitinstall_click_install">Smelltu til að setja upp hlutana sem nauðsynlegir eru fyrir %s</string>
+    <string name="app_install_allow_to_install_third_app">Allow \\\"microG Companion\\\" to install apps downloaded from \\\"%1$s\\\"</string>
+    <string name="app_install_needs_permissions_title">App Installer</string>
+    <string name="app_install_not_remind_again">Keep this selection and don\\\'t ask again</string>
+    <string name="app_install_permission_allowed">Allow</string>
+    <string name="app_install_refuse_permission_remind">If you decline, the application installation will fail.</string>
+    <string name="app_install_refuse_permission_remind_sub">You can modify the authorization status permissions at any time in microG Service Settings.</string>
 </resources>

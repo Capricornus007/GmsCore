@@ -50,4 +50,23 @@
     <string name="pref_exposure_error_nearby_not_granted_description">اضغط لمنح الأذونات المطلوبة لإشعارات التعرض</string>
     <string name="exposure_grant_background_location_description">أوشكت على الانتهاء! ستحتاج إلى تمكين الوصول إلى الموقع في الخلفية عن طريق تحديد الخيار \'السماح طوال الوقت\' على الشاشة التالية. ثم الضغط على الرجوع.</string>
     <string name="exposure_grant_background_location_button">تحديث الإعدادات</string>
+    <string name="exposure_confirm_keys_summary">\"Your IDs from the last 14 days will be used to help notify others that you\'ve been near about potential exposure.
+
+Your identity or test result won\'t be shared with other people.\"</string>
+    <string name="exposure_confirm_keys_title">Share your IDs with %1$s?</string>
+    <string name="exposure_confirm_start_summary">\"Your phone needs to use Bluetooth to securely collect and share IDs with other phones that are nearby.
+
+%1$s can notify you if you were exposed to someone who reported to be diagnosed positive.
+
+The date, duration, and signal strength associated with an exposure will be shared with the app.\"</string>
+    <string name="exposure_confirm_start_title">Turn on Exposure Notifications?</string>
+    <string name="exposure_confirm_stop_summary">After disabling Exposure Notifications, you will no longer be notified when you were exposed to someone who reported to be diagnosed positive.</string>
+    <string name="exposure_confirm_stop_title">Turn off Exposure Notifications?</string>
+    <string name="exposure_enable_switch">Use Exposure Notifications</string>
+    <string name="pref_exposure_info_summary">\"Exposure Notifications API allows apps to notify you if you were exposed to someone who reported to be diagnosed positive.
+
+The date, duration, and signal strength associated with an exposure will be shared with the corresponding app.\"</string>
+    <string name="pref_exposure_rpis_details_summary">\"While Exposure Notification API is enabled, your device passively collects IDs (called Rolling Proximity Identifiers, or RPIs) from nearby devices.
+
+When device owners report to be diagnosed positive, their IDs can be shared. Your device checks if any of the known diagnosed IDs matches any of the collected IDs and calculates your infection risk.\"</string>
 </resources>

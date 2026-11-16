@@ -50,4 +50,6 @@
     <string name="pref_location_timeline_upload_title">Googleアカウントに同期する</string>
     <string name="pref_location_timeline_upload_summary">ローカル履歴をGoogleサーバー同期して、他のデバイスに表示できるようにします。</string>
     <string name="pref_location_timeline_summary">あなたの位置情報を定期的に記録して、Google Mapsタイムラインで利用できるようにします。</string>
+    <string name="pref_location_timeline_accounts_summary">Choose an account to manage its Timeline and server synchronization settings.</string>
+    <string name="pref_location_timeline_accounts_title">Manage by Google account</string>
 </resources>

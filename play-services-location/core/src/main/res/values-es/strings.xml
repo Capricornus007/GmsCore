@@ -50,4 +50,6 @@
     <string name="pref_location_timeline_summary">Registra periódicamente tu información de ubicación y ponla a disposición en la Línea de Tiempo de Google Maps.</string>
     <string name="pref_location_timeline_upload_title">Sincroniza con la cuenta de Google</string>
     <string name="pref_location_timeline_upload_summary">Sincroniza el historial de ubicación con los servidores de Google, para que pueda mostrarse en otros dispositivos.</string>
+    <string name="pref_location_timeline_accounts_summary">Choose an account to manage its Timeline and server synchronization settings.</string>
+    <string name="pref_location_timeline_accounts_title">Manage by Google account</string>
 </resources>

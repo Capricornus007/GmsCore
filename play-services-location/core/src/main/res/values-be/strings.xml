@@ -44,4 +44,12 @@
     <string name="pref_location_import_export_title">Імпарт або экспарт даных аб месцазнаходжанні</string>
     <string name="notification_config_required_text_online_sources">Каб працягнуць выкарыстанне анлайн-сэрвісаў вызначэння месцазнаходжання, вам неабходна абраць сэрвіс вызначэння месцазнаходжання.</string>
     <string name="location_data_import_title">Імпарт даных аб месцазнаходжанні з файла</string>
+    <string name="pref_location_timeline_accounts_summary">Choose an account to manage its Timeline and server synchronization settings.</string>
+    <string name="pref_location_timeline_accounts_title">Manage by Google account</string>
+    <string name="pref_location_timeline_summary">\"Periodically record your location information and make it available to Google Maps Timeline.\"</string>
+    <string name="pref_location_timeline_title">Enable location history</string>
+    <string name="pref_location_timeline_upload_summary">\"Synchronize location history to Google servers, so it can be displayed on other devices.\"</string>
+    <string name="pref_location_timeline_upload_title">Synchronize to Google account</string>
+    <string name="prefcat_app_last_location">Last reported location</string>
+    <string name="prefcat_location_timeline_title">Google Maps Timeline</string>
 </resources>

@@ -45,4 +45,11 @@
     <string name="location_data_export_cell_title">I-export ang lokal na database ng lokasyon ng cell tower</string>
     <string name="location_data_import_result_toast">Naka-import ng %1$d mga record.</string>
     <string name="prefcat_app_last_location">Huling naiulat na lokasyon</string>
+    <string name="pref_location_timeline_accounts_summary">Choose an account to manage its Timeline and server synchronization settings.</string>
+    <string name="pref_location_timeline_accounts_title">Manage by Google account</string>
+    <string name="pref_location_timeline_summary">\"Periodically record your location information and make it available to Google Maps Timeline.\"</string>
+    <string name="pref_location_timeline_title">Enable location history</string>
+    <string name="pref_location_timeline_upload_summary">\"Synchronize location history to Google servers, so it can be displayed on other devices.\"</string>
+    <string name="pref_location_timeline_upload_title">Synchronize to Google account</string>
+    <string name="prefcat_location_timeline_title">Google Maps Timeline</string>
 </resources>

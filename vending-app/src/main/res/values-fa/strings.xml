@@ -51,4 +51,6 @@
     <string name="app_install_needs_permissions_title">نصب کننده برنامه</string>
     <string name="app_install_allow_to_install_third_app">اجازه به \"microG Companion\" برای نصب برنامه های دانلودشده از \"%1$s\"</string>
     <string name="app_install_refuse_permission_remind">در صورت رد کردن، نصب برنامه لغو می‌شود.</string>
+    <string name="app_install_not_remind_again">Keep this selection and don\\\'t ask again</string>
+    <string name="app_install_refuse_permission_remind_sub">You can modify the authorization status permissions at any time in microG Service Settings.</string>
 </resources>

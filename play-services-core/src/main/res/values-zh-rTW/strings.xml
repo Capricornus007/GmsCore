@@ -427,4 +427,20 @@
     <string name="in_app_reach_storage_usage">已使用 %1$d%%，共 %2$s</string>
     <string name="in_app_reach_get_storage">取得儲存空間</string>
     <string name="in_app_reach_clean_up_storage">清理儲存空間</string>
+    <string name="pref_account_details_title">帳戶詳細資料</string>
+    <string name="pref_account_system_sync_title">系統帳戶同步設定</string>
+    <string name="pref_account_timeline_cloud_notice">地點記錄與此 Google 帳戶同步。上傳權限僅適用於此裝置。</string>
+    <string name="pref_account_timeline_disabled_on_device">此裝置的地點設定已關閉時間軸。上述設定不會生效。</string>
+    <string name="pref_account_timeline_loading">正在載入帳戶設定…</string>
+    <string name="pref_account_timeline_restricted">此設定對此帳戶有限制。</string>
+    <string name="pref_account_timeline_summary">定期儲存此帳戶的地點記錄，讓 Google 地圖時間軸可以運作。</string>
+    <string name="pref_account_timeline_title">啟用地點記錄</string>
+    <string name="pref_account_timeline_unavailable">目前無法使用帳戶設定。</string>
+    <string name="pref_account_timeline_update_failed">本地上傳偏好已儲存，但無法確認帳戶設定。請重新整理並重試。</string>
+    <string name="pref_account_timeline_upload_disabled_on_device">此裝置的地點設定已關閉與 Google 伺服器的同步。上傳設定不會生效。</string>
+    <string name="pref_account_timeline_upload_summary">允許此裝置定期將此帳戶的地點記錄上傳至 Google 伺服器。</string>
+    <string name="pref_account_timeline_upload_title">允許同步至伺服器</string>
+    <string name="pref_account_type_google">Google 帳戶</string>
+    <string name="prefcat_account_settings_title">設定</string>
+    <string name="prefcat_account_timeline_title">Google 地圖時間軸</string>
 </resources>

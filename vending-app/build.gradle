@@ -154,10 +154,10 @@ if (file('user.gradle').exists()) {
 }
 
 androidComponents {
-    onVariants { variant ->
+    onVariants(selector().all()) { variant ->
         variant.outputs.each { output ->
-            output.outputFileName.set(variant.versionCode.flatMap { vc ->
-                variant.versionName.map { vn ->
+            output.outputFileName.set(output.versionCode.flatMap { vc ->
+                output.versionName.map { vn ->
                     variant.applicationId.get() + "-" + vc + vn.substring(vendingAppVersionName.length()) + ".apk"
                 }
             })

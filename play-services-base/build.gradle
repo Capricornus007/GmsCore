@@ -22,8 +22,8 @@ android {
     }
 
     compileOptions {
-        sourceCompatibility = 1.8
-        targetCompatibility = 1.8
+        sourceCompatibility = JavaVersion.VERSION_11
+        targetCompatibility = JavaVersion.VERSION_11
     }
 }
 
@@ -32,6 +32,7 @@ apply from: '../gradle/publish-android.gradle'
 description = 'microG implementation of play-services-base'
 
 dependencies {
+    implementation "androidx.core:core-ktx:$coreVersion"
     // Dependencies from play-services-base:18.8.0
     api 'androidx.collection:collection:1.0.0'
     api 'androidx.core:core:1.9.0'

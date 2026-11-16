@@ -7,6 +7,7 @@ apply plugin: 'com.android.library'
 dependencies {
     api project(':play-services-ads-identifier')
     implementation project(':play-services-base-core')
+    implementation "androidx.core:core-ktx:$coreVersion"
 }
 
 android {
@@ -25,13 +26,13 @@ android {
     }
 
     compileOptions {
-        sourceCompatibility = 1.8
-        targetCompatibility = 1.8
+        sourceCompatibility = JavaVersion.VERSION_11
+        targetCompatibility = JavaVersion.VERSION_11
     }
 
     kotlin {
         compilerOptions {
-            jvmTarget = org.jetbrains.kotlin.gradle.dsl.JvmTarget.JVM_1_8
+            jvmTarget = org.jetbrains.kotlin.gradle.dsl.JvmTarget.JVM_11
         }
     }
 

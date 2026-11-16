@@ -13,7 +13,7 @@ buildscript {
     ext.annotationVersion = '1.7.1'
     ext.appcompatVersion = '1.6.1'
     ext.biometricVersion = '1.1.0'
-    ext.coreVersion = '1.12.0'
+    ext.coreVersion = '1.19.1'
     ext.credentialsVersion = '1.2.0'
     ext.fragmentVersion = '1.6.2'
     ext.lifecycleVersion = '2.7.0'
@@ -39,9 +39,9 @@ buildscript {
 
     ext.androidBuildVersionTools = '35.0.0'
 
-    ext.androidMinSdk = 19
+    ext.androidMinSdk = 23
     ext.androidTargetSdk = 29
-    ext.androidCompileSdk = 35
+    ext.androidCompileSdk = 37
 
     ext.localProperties = new Properties()
 
@@ -124,5 +124,19 @@ subprojects {
         mavenCentral()
         google()
         if (hasModule("hms", false)) maven {url 'https://developer.huawei.com/repo/'}
+    }
+    // AGP 9: interface AIDL files must be explicitly packed to be visible to dependent modules.
+    // Only interface declarations are packed: parcelable declarations would emit Java stubs that
+    // collide with the hand-written SafeParcelable classes. Paths are matched relative to the AIDL
+    // source root (AidlProcessor.makeRelative).
+    plugins.withId('com.android.library') {
+        android {
+            aidlPackagedList.addAll(fileTree(dir: 'src', include: '**/aidl/**/*.aidl').files.findAll {
+                !it.text.readLines().any { l -> l.trim().startsWith('parcelable ') }
+            }.collect {
+                def p = it.toPath().toString()
+                p.substring(p.indexOf('/aidl/') + '/aidl/'.length())
+            })
+        }
     }
 }

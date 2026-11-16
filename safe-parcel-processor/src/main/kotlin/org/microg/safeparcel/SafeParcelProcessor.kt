@@ -14,6 +14,7 @@ import javax.lang.model.element.Element
 import javax.lang.model.element.ElementKind
 import javax.lang.model.element.ExecutableElement
 import javax.lang.model.element.Modifier
+import javax.lang.model.element.PackageElement
 import javax.lang.model.element.TypeElement
 import javax.lang.model.element.VariableElement
 import javax.tools.Diagnostic
@@ -63,13 +64,13 @@ class SafeParcelProcessor : AbstractProcessor() {
 class ClassInfo(val classElement: Element) {
     val name = classElement.simpleName.toString()
     val fullName = classElement.toString()
-    val packageName = let {
-        var upmostClassElement = classElement
-        while (upmostClassElement.enclosingElement != null) upmostClassElement = upmostClassElement.enclosingElement
-        upmostClassElement.toString()
+    val packageName = run {
+        var e: Element = classElement
+        while (e !is PackageElement) e = e.enclosingElement
+        (e as PackageElement).qualifiedName.toString()
     }
 
-    val creatorName = "$name\$000Creator"
+    val creatorName = "${name}_000Creator"
     val fullCreatorName = "$packageName.$creatorName"
 
     val fields = classElement.enclosedElements
@@ -301,7 +302,7 @@ class FieldInfo(val clazz: ClassInfo, val fieldElement: VariableElement) {
         }
     }
 
-    val variableName by lazy { "_$name\$000" }
+    val variableName by lazy { "_${name}_000" }
     val variableDeclaration by lazy { "$type $variableName;" }
     val defaultValue by lazy {
         fieldElement.annotationMirrors

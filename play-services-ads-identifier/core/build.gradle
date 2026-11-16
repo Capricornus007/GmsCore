@@ -13,7 +13,6 @@ android {
     namespace "org.microg.gms.ads.identifier"
 
     compileSdk androidCompileSdk
-    buildToolsVersion "$androidBuildVersionTools"
 
     defaultConfig {
         versionName version

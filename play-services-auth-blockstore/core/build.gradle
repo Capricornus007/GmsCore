@@ -13,7 +13,6 @@ android {
     namespace "org.microg.gms.auth.blockstore"
 
     compileSdk androidCompileSdk
-    buildToolsVersion "$androidBuildVersionTools"
 
     defaultConfig {
         versionName version

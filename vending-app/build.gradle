@@ -10,7 +10,6 @@ apply plugin: 'com.squareup.wire'
 android {
     namespace "com.android.vending"
     compileSdk androidCompileSdk
-    buildToolsVersion "$androidBuildVersionTools"
 
     defaultConfig {
         versionName vendingAppVersionName

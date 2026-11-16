@@ -40,7 +40,6 @@ android {
     namespace "org.microg.gms.fido.core"
 
     compileSdk androidCompileSdk
-    buildToolsVersion "$androidBuildVersionTools"
 
     defaultConfig {
         versionName version

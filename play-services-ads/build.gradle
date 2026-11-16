@@ -11,7 +11,6 @@ android {
     namespace "com.google.android.gms.ads.impl"
 
     compileSdk androidCompileSdk
-    buildToolsVersion "$androidBuildVersionTools"
 
     buildFeatures {
         aidl = true

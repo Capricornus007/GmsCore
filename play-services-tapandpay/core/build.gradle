@@ -21,7 +21,6 @@ android {
     namespace "org.microg.gms.tapandpay.core"
 
     compileSdk androidCompileSdk
-    buildToolsVersion "$androidBuildVersionTools"
 
     defaultConfig {
         versionName version

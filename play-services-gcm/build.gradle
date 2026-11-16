@@ -9,7 +9,6 @@ android {
     namespace "com.google.android.gms.gcm"
 
     compileSdk androidCompileSdk
-    buildToolsVersion "$androidBuildVersionTools"
 
     defaultConfig {
         versionName version

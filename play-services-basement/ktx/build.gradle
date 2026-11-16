@@ -16,7 +16,6 @@ android {
     namespace "org.microg.gms.basement.ktx"
 
     compileSdk androidCompileSdk
-    buildToolsVersion "$androidBuildVersionTools"
 
     defaultConfig {
         versionName version

@@ -21,7 +21,6 @@ android {
     namespace "org.microg.gms.pay.core"
 
     compileSdk androidCompileSdk
-    buildToolsVersion "$androidBuildVersionTools"
 
     defaultConfig {
         versionName version

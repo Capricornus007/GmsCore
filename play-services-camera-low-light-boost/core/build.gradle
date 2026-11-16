@@ -17,7 +17,6 @@ android {
     namespace "org.microg.gms.cameralowlight.core"
 
     compileSdk androidCompileSdk
-    buildToolsVersion "$androidBuildVersionTools"
 
     defaultConfig {
         versionName version

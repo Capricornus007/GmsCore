@@ -11,7 +11,6 @@ android {
     namespace "com.google.android.gms.places_placereport"
 
     compileSdk androidCompileSdk
-    buildToolsVersion "$androidBuildVersionTools"
 
     defaultConfig {
         versionName version

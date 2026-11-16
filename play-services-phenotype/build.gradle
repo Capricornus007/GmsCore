@@ -21,7 +21,6 @@ android {
     namespace "com.google.android.gms.phenotype"
 
     compileSdk androidCompileSdk
-    buildToolsVersion "$androidBuildVersionTools"
 
     buildFeatures {
         aidl = true

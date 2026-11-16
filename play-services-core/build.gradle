@@ -118,7 +118,6 @@ android {
     namespace "com.google.android.gms"
 
     compileSdk androidCompileSdk
-    buildToolsVersion "$androidBuildVersionTools"
 
     buildFeatures {
         buildConfig = true

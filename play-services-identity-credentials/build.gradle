@@ -9,7 +9,6 @@ android {
     namespace "com.google.android.gms.identitycredentials"
 
     compileSdk androidCompileSdk
-    buildToolsVersion "$androidBuildVersionTools"
 
     buildFeatures {
         aidl = true

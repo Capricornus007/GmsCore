@@ -44,7 +44,6 @@ android {
     namespace "org.microg.gms.recaptcha.core"
 
     compileSdk androidCompileSdk
-    buildToolsVersion "$androidBuildVersionTools"
 
     buildFeatures {
         compose true

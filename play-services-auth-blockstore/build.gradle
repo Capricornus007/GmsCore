@@ -13,7 +13,6 @@ android {
     namespace "com.google.android.gms.auth.blockstore"
 
     compileSdk androidCompileSdk
-    buildToolsVersion "$androidBuildVersionTools"
 
     buildFeatures {
         aidl = true

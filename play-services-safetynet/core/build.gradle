@@ -32,7 +32,6 @@ android {
     namespace "org.microg.gms.safetynet.core"
 
     compileSdk androidCompileSdk
-    buildToolsVersion "$androidBuildVersionTools"
 
     defaultConfig {
         versionName version

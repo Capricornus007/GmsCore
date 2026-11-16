@@ -12,7 +12,6 @@ android {
     namespace "com.google.android.gms.appinvite"
 
     compileSdk androidCompileSdk
-    buildToolsVersion "$androidBuildVersionTools"
 
     buildFeatures {
         aidl = true

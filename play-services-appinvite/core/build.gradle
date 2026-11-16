@@ -19,7 +19,6 @@ android {
     namespace "org.microg.gms.appinvite"
 
     compileSdk androidCompileSdk
-    buildToolsVersion "$androidBuildVersionTools"
 
     defaultConfig {
         versionName version

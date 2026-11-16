@@ -28,7 +28,6 @@ android {
     namespace "org.microg.gms.vision.core"
 
     compileSdk androidCompileSdk
-    buildToolsVersion "$androidBuildVersionTools"
 
     defaultConfig {
         versionName version

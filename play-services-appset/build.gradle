@@ -9,7 +9,6 @@ android {
     namespace "com.google.android.gms.appset"
 
     compileSdk androidCompileSdk
-    buildToolsVersion "$androidBuildVersionTools"
 
     buildFeatures {
         aidl = true

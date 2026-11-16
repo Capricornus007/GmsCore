@@ -45,7 +45,6 @@ android {
     namespace "org.microg.gms.maps.vtm"
 
     compileSdk androidCompileSdk
-    buildToolsVersion "$androidBuildVersionTools"
 
     defaultConfig {
         versionName version

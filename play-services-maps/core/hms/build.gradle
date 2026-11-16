@@ -17,7 +17,6 @@ android {
     namespace "org.microg.gms.maps.hms"
 
     compileSdk androidCompileSdk
-    buildToolsVersion "$androidBuildVersionTools"
 
     defaultConfig {
         versionName version

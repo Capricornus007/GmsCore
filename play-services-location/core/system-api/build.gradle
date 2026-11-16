@@ -13,7 +13,6 @@ android {
     namespace "org.microg.gms.location.sysapi"
 
     compileSdk androidCompileSdk
-    buildToolsVersion "$androidBuildVersionTools"
 
     defaultConfig {
         versionName version

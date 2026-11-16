@@ -16,7 +16,6 @@ android {
     namespace "org.microg.gms.auth.workaccount"
 
     compileSdk androidCompileSdk
-    buildToolsVersion "$androidBuildVersionTools"
 
     defaultConfig {
         versionName version

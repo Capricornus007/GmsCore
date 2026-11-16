@@ -13,7 +13,6 @@ android {
     namespace "org.microg.gms.location.base"
 
     compileSdk androidCompileSdk
-    buildToolsVersion "$androidBuildVersionTools"
 
     buildFeatures {
         buildConfig = true

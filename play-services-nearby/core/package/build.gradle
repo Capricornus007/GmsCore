@@ -16,7 +16,6 @@ android {
     namespace "org.microg.gms.nearby.core.pkg"
 
     compileSdk androidCompileSdk
-    buildToolsVersion "$androidBuildVersionTools"
 
     defaultConfig {
         versionName version

@@ -43,7 +43,6 @@ android {
     namespace "org.microg.gms.maps.mapbox"
 
     compileSdk androidCompileSdk
-    buildToolsVersion "$androidBuildVersionTools"
 
     buildFeatures {
         buildConfig = true

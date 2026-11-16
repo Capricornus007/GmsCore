@@ -6,7 +6,6 @@ android {
     namespace "com.google.android.gms.fitness"
 
     compileSdk androidCompileSdk
-    buildToolsVersion "$androidBuildVersionTools"
 
     buildFeatures {
         aidl = true

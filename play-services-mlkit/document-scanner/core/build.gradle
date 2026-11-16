@@ -20,7 +20,6 @@ android {
     namespace "org.microg.mlkit.vision.documentscanner.core"
 
     compileSdk androidCompileSdk
-    buildToolsVersion "$androidBuildVersionTools"
 
     defaultConfig {
         versionName version

@@ -21,7 +21,6 @@ android {
     namespace "org.microg.gms.panorama.core"
 
     compileSdk androidCompileSdk
-    buildToolsVersion "$androidBuildVersionTools"
 
     defaultConfig {
         versionName version

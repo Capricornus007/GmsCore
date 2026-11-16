@@ -59,7 +59,7 @@ jobs:
       - name: "Locate release APKs"
         id: apks
         run: |
-          find . -path '*/build/outputs/apk/release/*.apk' -type f | tee /tmp/apk-list.txt
+          find . -path '*/build/outputs/apk/*.apk' -type f | tee /tmp/apk-list.txt
           COUNT=$(wc -l < /tmp/apk-list.txt)
           echo "count=$COUNT" >> "$GITHUB_OUTPUT"
           test "$COUNT" -gt 0
@@ -69,6 +69,6 @@ jobs:
         with:
           name: gmscore-release-${{ github.sha }}
           path: |
-            **/build/outputs/apk/release/*.apk
+            **/build/outputs/apk/**/*.apk
           retention-days: 30
           if-no-files-found: error

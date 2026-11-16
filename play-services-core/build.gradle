@@ -123,6 +123,7 @@ android {
         buildConfig = true
         dataBinding = true
         compose true
+        resValues = true
     }
 
     defaultConfig {

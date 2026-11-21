@@ -14,7 +14,7 @@ public abstract class AbstractSafeParcelable implements SafeParcelable {
         String upmostClassName = upmostClass.getName();
         int idx = upmostClassName.lastIndexOf('.');
         String packagePrefix = idx > 0 ? upmostClassName.substring(0, idx + 1) : "";
-        String creatorClassName = packagePrefix + tClass.getSimpleName() + "$000Creator";
+        String creatorClassName = packagePrefix + tClass.getSimpleName() + "_000Creator";
         try {
             return (SafeParcelableCreatorAndWriter<T>) java.lang.Class.forName(creatorClassName).newInstance();
         } catch (Exception e) {
